@@ -1,0 +1,42 @@
+.form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #c60b0b;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px
+}
+
+p a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: coral;
+}
+
+.already {
+    color: white;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

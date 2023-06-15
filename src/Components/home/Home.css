@@ -1,0 +1,52 @@
+.home {
+    background-size: cover;
+    background-image: url('/src/assets/res.jpg');
+}
+
+.ul {
+    background-color: black;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+}
+
+.ul li {
+    list-style-type: none;
+    display: block;
+    float: right;
+
+}
+
+.ul li a {
+    color: whitesmoke;
+    padding: 16px 18px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: verdana 10px;
+}
+
+.ul li a:hover {
+    color: olive;
+    background-color: white;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.ul:hover {
+    background-color: brown;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.content {
+    display: block;
+    color: aliceblue;
+    background-color: blueviolet;
+}
+
+.drop:hover .content:hover {
+    display: block;
+}

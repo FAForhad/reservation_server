@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    margin: 0 auto;
+    width: 1000px;
+  }
+  
+  .table {
+    width: 600px;
+    height: 400px;
+    margin: 50px 50px;
+  }
+  
+  
+  p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  div {
+    text-align: center;
+  }
+  
+  .bus-seats {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .seat {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .seat.selected {
+    background-color: green;
+  }
+  
+  .seat.aisle {
+    width: 10px;
+    background-color: transparent;
+    cursor: default;
+  }
