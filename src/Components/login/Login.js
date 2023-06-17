@@ -28,13 +28,8 @@ const Login = () => {
                             <div class="absolute bg-black opacity-60 inset-0 z-0"></div>
                         </div>
                         <div class="w-full py-6 z-20">
-                            <div class="py-6 space-x-2">
-                                <span class="w-10 h-10 items-center justify-center inline-flex rounded-full font-bold text-lg border-2 border-white">f</span>
-                                <span class="w-10 h-10 items-center justify-center inline-flex rounded-full font-bold text-lg border-2 border-white">G+</span>
-                                <span class="w-10 h-10 items-center justify-center inline-flex rounded-full font-bold text-lg border-2 border-white">in</span>
-                            </div>
                             <p class="text-gray-100">
-                                or use email your account
+                                Use email your account
                             </p>
                             <form action="" class="sm:w-2/3 w-full px-4 lg:px-0 mx-auto">
                                 <div class="pb-2 pt-4">
